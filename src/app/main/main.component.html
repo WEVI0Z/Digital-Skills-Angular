@@ -1,5 +1,150 @@
-<section class="stats">
-  <h1 class="stats__heading">
-    Добро пожаловать!
-  </h1>
-</section>
+
+<div class="dashboard__cards">
+  <!-- portfolio -->
+  <div class="portfolio">
+    <div class="portfolio__header">
+      <h2 class="title-3">Панель статистики</h2>
+    </div>
+
+    <!-- portfolio__card -->
+    <div class="portfolio__card">
+      <!-- balance-card -->
+      <div class="balance-card">
+        <div class="balance-card__balance">
+          <div class="balance-card__balance-value">573</div>
+          <div class="balance-card__balance-desc">Количество активных пользователей</div>
+        </div>
+
+        <div class="balance-card__settings">
+          <button class="button-more">
+            <span class="button-more__icon"></span>
+          </button>
+        </div>
+
+        <div class="balance-card__period">
+          <button class="balance-card__period-btn">1H</button>
+          <button class="balance-card__period-btn">24H</button>
+          <button
+            class="
+											balance-card__period-btn
+											balance-card__period-btn--active
+										"
+          >
+            1W
+          </button>
+          <button class="balance-card__period-btn">1M</button>
+          <button class="balance-card__period-btn">1Y</button>
+          <button class="balance-card__period-btn">ALL</button>
+        </div>
+
+        <img
+          src="../../assets/img/chart.svg"
+          alt="Chart"
+          class="balance-card__chart"
+        />
+      </div>
+      <!-- // balance-card -->
+    </div>
+    <!-- // portfolio__card -->
+  </div>
+  <!-- // portfolio -->
+
+  <!-- assets -->
+  <div class="assets">
+    <div class="assets__header">
+      <h2 class="title-3">Топ 10 самых активных сотрудников</h2>
+      <button>
+        <img src="../../assets/top-icons/arrow-right.png" width="20" height="20" alt="Settings" />
+      </button>
+    </div>
+    <div class="assets__cards">
+      <!-- asset-card -->
+      <div class="asset-card">
+        <div class="asset-card__header">
+          <div class="asset-card__value">Гаркавый Алексей Павлович</div>
+          <div class="asset-card__fiat"> 143 запроса </div>
+        </div>
+
+        <div class="asset-card__footer">
+          <div class="asset-card__icon">
+            <img src="../../assets/cards-icons/clock1.png" alt="Bitcoin" />
+          </div>
+          <div class="asset-card__income">+ 0.14%</div>
+        </div>
+
+        <div class="asset-card__settings">
+          <button class="button-more">
+            <span class="button-more__icon"></span>
+          </button>
+        </div>
+      </div>
+      <!-- // asset-card -->
+
+      <!-- asset-card -->
+      <div class="asset-card asset-card--ltc">
+        <div class="asset-card__header">
+          <div class="asset-card__value">Козлов Александр</div>
+          <div class="asset-card__fiat">98 запросов</div>
+        </div>
+
+        <div class="asset-card__footer">
+          <div class="asset-card__icon">
+            <img src="../../assets/cards-icons/clock1.png" alt="Litecoin" />
+          </div>
+          <div class="asset-card__income">+ 0.31%</div>
+        </div>
+
+        <div class="asset-card__settings">
+          <button class="button-more">
+            <span class="button-more__icon"></span>
+          </button>
+        </div>
+      </div>
+      <!-- // asset-card -->
+
+      <!-- asset-card -->
+      <div class="asset-card asset-card--eth">
+        <div class="asset-card__header">
+          <div class="asset-card__value">Асанович Егор Игоревич</div>
+          <div class="asset-card__fiat">54 запроса</div>
+        </div>
+
+        <div class="asset-card__footer">
+          <div class="asset-card__icon">
+            <img src="../../assets/cards-icons/clock1.png" alt="Ethereum" />
+          </div>
+          <div class="asset-card__income">+ 0.27%</div>
+        </div>
+
+        <div class="asset-card__settings">
+          <button class="button-more">
+            <span class="button-more__icon"></span>
+          </button>
+        </div>
+      </div>
+      <!-- // asset-card -->
+    </div>
+  </div>
+  <!-- // assets -->
+</div>
+<!-- // dashboard__cards -->
+
+
+<!-- earn-free -->
+<div class="earn-free-wrapper">
+  <div class="earn-free">
+    <div class="earn-free__title">Бот</div>
+    <div class="earn-card__text">
+      Статус бота: Онлайн
+    </div>
+    <div class="earn-card__text">
+      Время работы без перезапуска: 1д 6ч
+    </div>
+    <div class="earn-card__text">
+      Имя бота: Алиса
+    </div>
+    <a href="#" class="earn-free__button">Включить</a>
+    <a href="#" class="earn-free__button">Управление</a>
+    <a href="#" class="earn-free__button"><img src="../../assets/earn-card/setting.png"  width="20" height="20" alt="Avatar" /></a>
+  </div>
+</div>

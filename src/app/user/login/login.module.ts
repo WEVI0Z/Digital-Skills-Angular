@@ -17,8 +17,8 @@ const routes: Routes = [
   ],
     imports: [
         CommonModule,
+      FormsModule,
         ReactiveFormsModule,
-        FormsModule,
         RouterModule.forChild([{
             path: "",
             component: LoginComponent,
@@ -26,8 +26,6 @@ const routes: Routes = [
     ],
     exports: [
         RouterModule,
-      FormsModule,
-      ReactiveFormsModule,
     ]
 })
 export class LoginModule { }
