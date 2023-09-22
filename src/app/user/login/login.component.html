@@ -1,5 +1,5 @@
 <section class="register">
-    <form method="post" class="register__form form" [formGroup]="form" (ngSubmit)="submit()">
+<!--    <form method="post" class="register__form form" [formGroup]="form" (ngSubmit)="submit()">-->
         <h2 class="register__slogan">Авторизация</h2>
         <p class="form__validation" *ngIf="incorrect">
             Неправильный логин или пароль
@@ -25,5 +25,5 @@
             >
         </label>
         <button type="submit" class="form__submit button" [disabled]="form.invalid">Войти в аккаунт</button>
-    </form>
+<!--    </form>-->
 </section>
